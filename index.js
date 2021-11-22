@@ -1,5 +1,5 @@
 let i= 0;
-while( i <= 100){
+while( i <=200){
     i++;
     if(i%2 == 0){
         console.log(i + ",")
@@ -9,7 +9,7 @@ while( i <= 100){
 }
 
 let x= 0;
-while( x <= 100){
+while( x <= 200){
     x++;
     if(x%2 != 0){
         console.log(x + ",")
