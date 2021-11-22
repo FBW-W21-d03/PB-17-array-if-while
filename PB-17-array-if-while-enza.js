@@ -1,23 +1,21 @@
 
-let i= 0;
-let array1 = [i];
 
-while( i <= 100){
-    i++;
-    if(i%2 == 0){
-        console.log([i]);
-    }    
+/*
+ein array mit 200 zahlen, austeigend egal ub grade oder ungrade
+*/
+
+const array1 = [];
+let counter = 1;
+while( counter <= 203 ) {
+    array1.push(counter);
+    counter = counter + 2;
 }
+console.log(array1);
 
-
-let x= 0;
-let array2 = [x];
-
-while( x <= 100){
-    x++;
-    if(x%2 != 0){
-        console.log([x]);
-
-    }
-    
+const array2 = [];
+counter = 2;
+while( counter <= 203 ) {
+    array2.push(counter);
+    counter = counter + 2;
 }
+console.log(array2);
