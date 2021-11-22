@@ -14,6 +14,8 @@ console.log("grade");
 while ((grade.length<=100) && (ungrade.length<=100)) {
     grade.push(ausgabe);
     ungrade.push(ausgabe+1);
-    ausgabe+=2;//ausgabe=ausgabe+2
-};
-console.log(grade,ungrade);
+    ausgabe+=2;
+    if((grade.length == 100) && (ungrade.length == 100)){
+        console.log(grade, ungrade);
+    }
+        }
